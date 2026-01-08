@@ -1,0 +1,57 @@
+.codingprofiles{
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1100px;
+  padding:40px 20px;
+}
+.codingprofiles h2{
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.cprofiles{
+  padding:20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:40px;
+  border-radius:10px; 
+}
+.profile{
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1 1 300px;  
+  max-width: 350px;
+   box-sizing: border-box;
+  cursor: pointer;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+.profile:hover{
+    transform: scale(1.05) translateY(-10px);
+  box-shadow: 0 10px 25px rgba(40, 150, 255, 0.4), 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.profile-button{
+  background-color:  #2090c0;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+}
+
+.profile-button:hover{
+  background-color: #e99728;
+}
+
+.c-icon{
+  width:20%;
+  margin:auto;
+  padding:10px;
+}
+
+.c-iconw{
+  width:30%;
+  margin:auto;
+  padding:10px;
+}

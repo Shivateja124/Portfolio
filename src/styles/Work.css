@@ -1,0 +1,241 @@
+.work-title {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #2090c0;
+}
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    width: 100%;
+    max-width: 1100px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+
+.tabbuttons {
+    background-color: #2090c0;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    min-width: 120px;
+    white-space: nowrap;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.tabbuttons:hover {
+    background-color: #e99728;
+    ;
+}
+
+
+.projects {
+    text-align: center;
+}
+
+.project-boxes {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 40px 20px;
+    gap: 40px;
+
+}
+
+.projects h2 {
+    margin-bottom: 20px;
+}
+
+.project-box {
+    border-radius: 12px;
+    padding: 40px 20px;
+    flex: 1 1 300px;
+    min-width: 180px;
+    max-width: 350px;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.project-box:hover {
+    transform: scale(1.05) translateY(-10px);
+    box-shadow: 0 10px 25px rgba(40, 150, 255, 0.4), 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.tech-stack {
+    text-align: left;
+}
+
+.project-box ul li {
+    text-align: left;
+}
+
+.repo-button button {
+    background-color: #2090c0;
+    border-radius: 5px;
+    padding:5px;
+    cursor: pointer;
+    border: none;
+}
+
+.repo-button button:hover {
+    background-color: #e99728;
+}
+
+.internships {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.internships-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px 20px;
+    gap: 40px;
+}
+
+.internships-box {
+    flex: 1 1 360px;
+    max-width: 420px;
+    min-width: 260px;
+    border:#eff2f5;
+    border-radius: 12px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.internships-box:hover {
+    transform: scale(1.05) translateY(-10px);
+    box-shadow: 0 10px 25px rgba(40, 150, 255, 0.4), 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.keyskills {
+    text-align: left;
+}
+
+.internships-box ul li {
+    text-align: left;
+}
+
+.duration {
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.companylogo {
+    max-width: 324px;
+    max-height: 120px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+.certificates-section{
+    width: 100%;
+    padding:25px;
+    text-align: center;
+}
+
+
+.certificates-section table {
+  background-color: #1e1e1e;
+  color: white;
+  width: 100%;
+  max-width: 1100px;
+  border-collapse: collapse;
+  margin:0 auto;
+  padding:40px 20px;
+}
+
+.certificates-section th {
+  background-color: #1e1e1e !important;
+  color: white;
+  border: 1px solid #444;
+  text-align: center;
+}
+
+.certificates-scroll {
+  overflow-x: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.certificates-scroll table {
+  min-width: 700px;
+}
+.certificates-section td {
+    text-align: center;
+}
+
+.certificate-button {
+    background-color: #e99728;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    width: 150px; 
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .project-box,
+    .internships-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .tabs {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .tabbuttons {
+        width: 100%;
+        max-width: 300px;
+        font-size: 14px;
+    }
+}

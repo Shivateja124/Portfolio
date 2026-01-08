@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 33px;
+  gap: 40px;
+}
+
+.left {
+  flex: 1 1 300px;
+  min-width: 280px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.right {
+  flex: 1 1 300px;
+  min-width: 280px;
+  text-align: center;
+}
+
+.intro {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.intro-text {
+  font-size: 35px;
+}
+.intro-para {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.profile-img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  padding: 10px;
+}
+
+.resume-button {
+  padding: 15px 25px;
+  background: #e99728;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.resume-button:hover {
+  background-color: rgba(40, 150, 255, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+

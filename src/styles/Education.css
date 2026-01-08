@@ -1,0 +1,60 @@
+.education {
+  text-align: center;
+  padding: 20px 20px;
+  margin:50px auto;
+  color: white;
+  border-radius: 5px;
+  width:100%;
+  border:1px solid rgba(255, 255, 255, 0.05);;
+  max-width: 1100px;
+  text-align: center;
+}
+
+.education h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.education h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #2090c0;
+}
+
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.education-container > div {
+
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1 1 250px;   
+  max-width: 350px;
+  cursor: pointer;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.education-container > div:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(40, 150, 255, 0.4);
+}
+
+.education-container h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2090c0;
+}
+
+.range {
+  margin: 20px auto;
+  text-align: center;
+  color: white;
+
+}
+
